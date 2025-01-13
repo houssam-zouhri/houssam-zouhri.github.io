@@ -1,0 +1,18 @@
+title: Portfolio of Houssam Zouhri
+description: "Personal site of Houssam Zouhri, Data Scientist and PhD student in Cybersecurity"
+author: "Houssam Zouhri"
+baseurl: "" # leave empty if you publish at the root of your repository
+url: "https://your-username.github.io" # Replace this with your GitHub Pages URL
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social Media
+social_links:
+  github: "https://github.com/HoussamZouhri"
+  linkedin: "https://linkedin.com/in/houssamzouhri"
+  email: "mailto:houssam.zouhri@example.com"
+
+# Customize appearance and add a logo
+logo: "/assets/images/logo.png"
