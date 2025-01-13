@@ -15,4 +15,4 @@ social_links:
   email: "mailto:houssam.zouhri@example.com"
 
 # Customize appearance and add a logo
-logo: "/logo.jpeg"
+logo: ""/assets/images/logo.jpeg"
