@@ -1,18 +1,60 @@
-title: Portfolio of Houssam Zouhri
-description: "Personal site of Houssam Zouhri, Data Scientist and PhD student in Cybersecurity"
-author: "Houssam Zouhri"
-baseurl: "" # leave empty if you publish at the root of your repository
-url: "https://your-username.github.io" # Replace this with your GitHub Pages URL
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Minimal Mistakes configuration for Jekyll Portfolio
 
-# Social Media
+title: "Houssam Zouhri"
+description: "Personal portfolio of Houssam Zouhri, Data Scientist & PhD Student in Cybersecurity"
+author: "Houssam Zouhri"
+url: "https://houssam-zouhri.github.io" # Replace with your actual GitHub Pages URL
+baseurl: ""  # Leave empty if hosted on the root domain
+
+# Social Media links
 social_links:
   github: "https://github.com/HoussamZouhri"
   linkedin: "https://linkedin.com/in/houssamzouhri"
+  twitter: "https://twitter.com/houssamzouhri" # Optional, replace with actual Twitter link
   email: "mailto:houssam.zouhri@example.com"
 
-# Customize appearance and add a logo
-logo: "/assets/images/logo.jpeg"
+# Logo and Branding
+logo: "/assets/images/logo.jpeg" # Replace with the path to your logo image
+
+# Theme - Minimal Mistakes
+theme: "minimal-mistakes-jekyll"
+
+# Customize the appearance
+main_header:
+  image: "/assets/images/portfolio-banner.jpg" # Banner image displayed in the header section
+  image_position: "center"  # Can be left, center, or right
+
+# Navigation settings
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Enable social sharing
+social_share: true
+
+# Enable disqus for comments (Optional)
+comments:
+  provider: "disqus"
+  shortname: "your-disqus-shortname" # Replace with your Disqus shortname if you want comments
+
+# SEO and Sitemap settings
+seo:
+  title: "Houssam Zouhri Portfolio"
+  description: "Explore the personal portfolio of Houssam Zouhri, showcasing projects in data science and cybersecurity"
+  keywords: "Data Science, Machine Learning, Cybersecurity, PhD, Portfolio"
+
+# Analytics (Optional)
+google_analytics: "UA-XXXXXXX-X" # Replace with your Google Analytics tracking ID if you want to track visitors
+
+# Enable RSS feed
+plugins:
+  - jekyll-feed
+
+# Optional: For automatic deployment from GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes-jekyll"
