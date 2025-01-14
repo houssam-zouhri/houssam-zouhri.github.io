@@ -1,17 +1,14 @@
-# Minimal Mistakes configuration for Jekyll Portfolio
-
 title: "Houssam Zouhri"
-description: "Personal portfolio of Houssam Zouhri, Data Scientist & PhD Student in Cybersecurity"
+description: "Personal portfolio of Houssam Zouhri, Data Scientist & PhD researcher in Cybersecurity"
 author: "Houssam Zouhri"
-url: "https://houssam-zouhri.github.io" # Replace with your actual GitHub Pages URL
-baseurl: ""  # Leave empty if hosted on the root domain
+url: "https://houssam-zouhri.github.io" 
+baseurl: "" 
 
 # Social Media links
 social_links:
-  github: "https://github.com/HoussamZouhri"
+  github: "https://github.com/Houssam-Zouhri"
   linkedin: "https://linkedin.com/in/houssamzouhri"
-  twitter: "https://twitter.com/houssamzouhri" # Optional, replace with actual Twitter link
-  email: "mailto:houssam.zouhri@example.com"
+  email: "mailto:houssam.zouhri@um6p.ma"
 
 # Logo and Branding
 logo: "/assets/images/logo.jpeg" # Replace with the path to your logo image
@@ -21,7 +18,7 @@ theme: "minimal-mistakes-jekyll"
 
 # Customize the appearance
 main_header:
-  image: "/assets/images/portfolio-banner.jpg" # Banner image displayed in the header section
+  image: "/assets/images/logo.jpeg" # Banner image displayed in the header section
   image_position: "center"  # Can be left, center, or right
 
 # Navigation settings
