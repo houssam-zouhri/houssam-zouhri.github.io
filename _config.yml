@@ -11,15 +11,15 @@ social_links:
   email: "mailto:houssam.zouhri@um6p.ma"
 
 # Logo and Branding
-logo: "/assets/images/logo.jpeg" # Replace with the path to your logo image
+logo: "/assets/images/logo.jpeg"
 
 # Theme - Minimal Mistakes
-theme: "minimal-mistakes-jekyll"
+theme: "minimal-jekyll"
 
 # Customize the appearance
 main_header:
   image: "/assets/images/logo.jpeg" # Banner image displayed in the header section
-  image_position: "center"  # Can be left, center, or right
+  image_position: "left"  # Can be left, center, or right
 
 # Navigation settings
 navigation:
@@ -53,5 +53,3 @@ google_analytics: "UA-XXXXXXX-X" # Replace with your Google Analytics tracking I
 plugins:
   - jekyll-feed
 
-# Optional: For automatic deployment from GitHub Pages
-remote_theme: "mmistakes/minimal-mistakes-jekyll"
