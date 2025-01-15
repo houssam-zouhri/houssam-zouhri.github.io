@@ -13,8 +13,8 @@ social_links:
 # Logo and Branding
 logo: "/assets/images/logo.jpeg"
 
-# Theme - Minimal Mistakes
-theme: "minimal-jekyll"
+# Theme 
+theme: "minima"
 
 # Customize the appearance
 main_header:
