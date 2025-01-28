@@ -3702,7 +3702,7 @@ input, select, textarea {
 .download-link:hover {
     background-color: #45a049;  /* Darker green on hover */
 }
-.panel banner right {
+body {
     background-image: url('images/background.jpeg');  /* Replace with your image path */
     background-size: cover;
     background-position: center;
